@@ -1,0 +1,202 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "eb84307b-e39c-456d-aef9-02275e45595d")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 107.95 101.6) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01dce798-9072-4533-b858-b035e6a16436")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3881e5-3227-4856-acdf-a1f209a55a85")
+	)
+	(wire
+		(pts
+			(xy 119.38 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7f8d6c-1553-4872-bb70-9afe533aa890")
+	)
+	(sheet
+		(at 123.19 88.9)
+		(size 45.72 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1f41c597-e942-4b61-9cd3-e25e7bbc8b8b")
+		(property "Sheetname" "LED_Driver"
+			(at 123.19 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led_driver.kicad_sch"
+			(at 123.19 119.9646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CTRL" input
+			(at 123.19 105.41 180)
+			(uuid "c8ec7edd-5dfb-4a6f-a29b-968402662916")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "introo_project2"
+				(path "/eb84307b-e39c-456d-aef9-02275e45595d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.785 68.58)
+		(size 31.75 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6e38f22f-6914-4677-bcb5-c715323b15ac")
+		(property "Sheetname" "Connector"
+			(at 57.785 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 57.785 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "introo_project2"
+				(path "/eb84307b-e39c-456d-aef9-02275e45595d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 90.17)
+		(size 43.18 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d5e79779-cf7e-47c4-b767-e7bdd9a9537e")
+		(property "Sheetname" "Timer"
+			(at 64.77 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "timer.kicad_sch"
+			(at 64.77 116.1546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LED_CTRL" output
+			(at 107.95 101.6 0)
+			(uuid "6834e851-bbde-4300-b23c-48c6919cdceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "introo_project2"
+				(path "/eb84307b-e39c-456d-aef9-02275e45595d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
